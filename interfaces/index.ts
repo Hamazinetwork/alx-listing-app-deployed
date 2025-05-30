@@ -1,11 +1,32 @@
-import React from 'react'
-
-const index = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+export interface Address{
+    street?: string;
+    city: string;
+    state: string;
+    country: string;
 }
 
-export default index
+export interface offer{
+    bed: string;
+    shower: string;
+    occupants: string;
+}
+
+export interface PropertyProps{
+  name: string;
+  address: Address;
+  rating: number;
+  category: string[];
+  price: number;
+  offers: offer;
+  image: string;
+  discount: any;
+}
+//
+export interface ButtonProps {
+  title: string;
+  style: string;}
+
+export interface layoutProps{
+  children: React.ReactNode;
+
+}

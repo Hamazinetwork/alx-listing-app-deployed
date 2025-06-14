@@ -17,5 +17,5 @@ const ReviewSection: React.FC<{ reviews: any[] }> = ({ reviews }) => {
       </div>
     );
   };
-  
+  // This component displays a list of reviews for a product.
   export default ReviewSection;

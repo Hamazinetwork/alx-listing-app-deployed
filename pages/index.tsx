@@ -36,7 +36,8 @@ const HomePage: React.FC = () => {
 
       <div className="px-4">
         {PROPERTYLISTINGSAMPLE.map((property) => (
-          <PropertyCard key={property.id} property={property} />
+          <PropertyCard key={property.id} property={property}
+            />
         ))}
       </div>
     </>

@@ -17,7 +17,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       shower: "3",
       occupants: "4-6"
     },
-    image: "https://example.com/image1.jpg",
+    image: "https://unsplash.com/photos/white-and-brown-concrete-building-near-body-of-water-during-daytime-TrNWQHhjJ4Q",
     discount: ""
   },
   {

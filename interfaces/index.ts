@@ -21,6 +21,7 @@ export interface PropertyProps{
   offers: offer;
   image: string;
   discount: any;
+  description?: string;
 }
 //
 export interface ButtonProps {

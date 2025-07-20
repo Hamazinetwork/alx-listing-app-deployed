@@ -31,3 +31,9 @@ export interface layoutProps{
   children: React.ReactNode;
 
 }
+// Pill component
+export interface PillProps {
+  label: string;
+  isActive?: boolean;
+  onClick: () => void;
+}
